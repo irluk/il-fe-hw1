@@ -1,0 +1,139 @@
+*	{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #f9f9f9;
+	font-family: Calibri;
+	font-size: 15px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  background-color: #FFF;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  box-shadow: 1px 0 2px 1px #e7e7e7;
+	overflow: hidden;
+}
+.osn-container {
+/*	background-color: red;*/
+	overflow: hidden;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.zagolovok {
+/*	background-color: blue;*/
+	padding-top: 30px;
+}
+.head-emblem {
+/*	background-color: gray;*/
+	font-size: 300%;
+	margin-bottom: 30px;
+}
+.a-emblem {
+	color: #323232;
+}
+.menu-head {
+/*	background-color: blue;*/
+	overflow: hidden;
+}
+.menu-item-head {
+	float: left;
+	background-color: #464646;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+}
+.menu-item-head:hover {
+	background-color: #404040;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+}
+.menu-item-head:last-child {
+  width: 655px;
+  text-align: left;
+  text-indent: 30px;
+}
+.a-menu-item-head {
+	color: white;
+	font-size: 17px;
+}
+.left-container {
+	float: left;
+/*	background-color: yellow;*/
+	width: 250px;
+}
+.menu-left {
+	border: 2px solid #808080;
+	text-indent: 30px;
+}
+.menu-item-left {
+	border-bottom: 2px solid #808080;
+	color: #404040;
+	line-height: 40px;
+}
+.menu-item-left:last-child {
+	border-bottom: none;
+}
+.menu-item-left:hover {
+ 	text-indent: 60px;
+ 	background-color: #dbdbdb;
+ }
+.a-menu-item-left {
+ 	color: #808080;
+}
+.a-menu-item-left:hover {
+ 	color: black;
+ }
+.right-container {
+	/*	background-color: green;*/
+	float: right;
+	width: 660px;
+}
+.ramka {
+	border: 2px solid #808080;
+	width: 655px;
+	height: 350px;
+	text-align: center;
+	padding-top: 50px;
+}
+.right-text {
+	/*	background-color: gray;*/
+	color: #404040;
+	width: 610px;
+	margin-top: 25px;
+	margin-left: 25px;
+	line-height: 20px;
+}
+.menu-item-footer {
+	float: left;
+	background-color: #dbdbdb;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+}
+.a-menu-item-footer {
+	color: black;
+}
+.a-menu-item-footer:hover {
+	text-decoration: underline;
+}
+.footer-rihts {
+	float: left;
+	width: 550px;
+	text-align: right;
+	text-indent: 30px;
+	background-color: #dbdbdb;
+	line-height: 40px;	
+	font-family: Calibri;
+}
