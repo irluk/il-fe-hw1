@@ -1,0 +1,138 @@
+*	{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #f9f9f9;
+	font-family: Calibri;
+	font-size: 15px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.wrapper {
+  background-color: #FFF;
+  margin:0 auto; /* вместо margin-left: 150px; margin-right: 150px; */
+  width: 980px; 
+  padding: 30px 45px;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  box-shadow: 1px 0 2px 1px #e7e7e7;
+  overflow: hidden;
+}
+.container {
+	overflow: hidden;
+	margin: 30px 0;
+}
+.head-emblem {
+	margin-bottom: 30px;
+}
+.a-emblem {
+	color: #323232;
+}
+.head-menu {
+	overflow: hidden;
+	background-color: #464646;
+}
+.head-menu__item {
+	float: left;
+	background-color: #464646;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+	border-left: 1px solid rgba(255,255,255,0);
+	border-right: 1px solid rgba(255,255,255,0);
+}
+.head-menu__item:hover {
+	background-color: #404040;
+  border-left: 1px solid rgba(255,255,255,1);
+  border-right: 1px solid rgba(255,255,255,1);
+}
+.head-menu__link {
+	color: #FFF;
+	font-size: 17px;
+}
+.left-container {
+	float: left;
+	width: 250px;
+}
+.left-menu {
+	border: 2px solid #808080;
+	text-indent: 30px;
+}
+.left-menu__item {
+	border-bottom: 2px solid #808080;
+	color: #404040;
+}
+.left-menu__item:last-child {
+	border-bottom: none;
+}
+.left-menu__item:hover {
+ 	text-indent: 60px;
+ 	background-color: #dbdbdb;
+ }
+.left-menu__link {
+ 	color: #808080;
+	line-height: 40px;
+	display: block;
+}
+.left-menu__link:hover {
+ 	color: #000;
+}
+.right-container {
+	float: right;
+	width: 660px;
+}
+.frame {
+	border: 2px solid #808080;
+	padding: 50px 90px 45px;
+}
+.right-text {
+	color: #404040;
+	width: 610px;
+	margin-top: 25px;
+	margin-left: 25px;
+	line-height: 20px;
+}
+.footer-menu {
+	background-color: #dbdbdb;
+	line-height: 40px;	
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.footer-menu__item {
+	float: left;
+	min-width: 100px;
+	text-align: center;
+}
+.footer-menu__link {
+	color: #000;
+}
+.footer-menu__link:hover {
+	text-decoration: underline;
+}
+.coperight {
+	float: right;
+	margin-right: 5px;
+}
+.inline-footer-menu {
+	background-color: #dbdbdb;
+	line-height: 40px;
+}
+.inline-footer-menu__item {
+	min-width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+.inline-footer-menu__link {
+	color: black;
+}
+.inline-footer-menu__link:hover {
+	text-decoration: underline;
+}
+.inline-footer-menu__lu {
+	display: inline-block;
+}
