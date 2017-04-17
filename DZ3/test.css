@@ -1,0 +1,12 @@
+.email-frame {
+	background-color: rgb(230,230,230);
+  background: linear-gradient(to top, rgb(230,230,230), rgb(210,210,210) );
+  color: #000;
+  margin: 5% 10%;
+  padding: 0 1%;
+  height: 50px;
+  overflow: hidden;
+}
+.email__form {
+  float: right;
+}
